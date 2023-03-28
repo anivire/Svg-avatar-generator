@@ -11,7 +11,7 @@
 
             <div class="">
                 <div class="flex flex-row items-center">
-                    <p class="uppercase font-bold text-xs flex flex-row items-center bg-zinc-800 p-2 rounded">.SVG</p>
+                    <p class="uppercase font-bold text-xs flex flex-row items-center bg-zinc-800 mr-3 p-2 rounded">.SVG</p>
                     <button class="flex flex-row items-center bg-zinc-800 p-3 rounded h-8 hover:bg-zinc-700/50 transition duration-300 easy-in-out w-full text-xs " @click="copySvg">Copy .svg</button>
                 </div>
                 <p class="break-all text-zinc-400 text-xs my-3">{{avatar}}</p>
