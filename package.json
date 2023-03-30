@@ -10,15 +10,18 @@
   },
   "dependencies": {
     "@iconify-prerendered/vue-ri": "^0.22.1656183165",
+    "verte": "^0.0.12",
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "@iconify/vue": "^4.1.0",
     "@vitejs/plugin-vue": "^4.1.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
+    "vue-color-picker-wheel": "^0.4.3",
     "vue-tsc": "^1.2.0"
   }
 }

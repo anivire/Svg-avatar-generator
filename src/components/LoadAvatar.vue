@@ -10,24 +10,27 @@
             </div>
         </div>
         <div v-else>
-            <p class="uppercase font-bold text-xs flex flex-row justify-center bg-zinc-800 p-2 rounded my-5">Image is not loaded</p>
+            <p class="uppercase font-bold text-xs flex flex-row justify-center items-center bg-zinc-800 p-6 rounded my-5"><Icon icon="ri:file-copy-2-line" class="text-xl mx-1"/>Image is not loaded</p>
         </div>
-        <textarea class="bg-zinc-800 w-full break-all text-zinc-400 text-xs p-3 h-64" v-model="avatar"></textarea>
+        <textarea class="bg-zinc-800 w-full break-all text-zinc-400 text-xs p-3 border-2 border-zinc-800 rounded bg-zinc-800/50 outline-0 " v-model="avatar"></textarea>
         
     </div>
 </template>
 
 <script lang="ts">
-export default {
-    data() {
-        return {
-            avatar: ''
-        }
-    },
-    methods: {
-        loadSvg() {
-           
-        }
+    import { Icon } from '@iconify/vue';
+    
+    export default {
+        data() {
+            return {
+                avatar: ''
+            }
+        },
+        methods: {
+            loadSvg() {
+            
+            }
+        },
+        components: { Icon }
     }
-}
 </script>
